@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #049dbf;
+    margin-bottom: 46px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: 290px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.tituloLogin{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 106px;
+    text-align: center;
+    color: #03588C;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    text-transform: uppercase;
+}
+
+.BlocoLogin{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 514px;
+    background-color: #048ABF;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+.alinhamentoLogin{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titLogin{
+    display: flex;
+    justify-content: center;
+    margin-top: 76px;
+    margin-bottom: 61px;
+    width: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.formulario{
+    width: 247px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.campoLogin{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.campoLogin p{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+}
+.campoLogin input{
+    width: 247px;
+    height: 22px;
+    background-color: #048ABF;
+    color: white;
+    border: none;
+    border-bottom: solid 1px white;
+}
+.botaoLogin{
+    width: 100%;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.botaoLogin button{
+    text-transform: uppercase;
+    width: 150px;
+    height: 41px;
+    background-color: #03588C;
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.botaoLogin a{
+    color: #03588C;
+    font-weight: bolder;
+}
+
+
+
+.alinharHeader{
+    width: 290px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: white;
+}
+.blocoTema{
+    width: 290px;
+    height: 292px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 43px;
+}
+.tema{
+    width: 100%;
+    height: 53px;
+    background-color: #048ABF;
+    border: solid 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    padding-top: 15px;
+    color: white;
+}
+.descricao-projeto{
+    width: 290px;
+    height: 239px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #049DBF;
+}
+.projeto{
+    width: 224px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Baloo Tammudu 2', cursive;
+    border-bottom: solid 1px white;
+    margin-bottom: 27px;
+    padding-top: 10px;
+}
+.descricao{
+    width: 224px;
+    height: 174px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+footer a{
+    width: 103px;
+    height: 100%;
+    background-color: #048ABF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.form-cadastrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 493px;
+    margin-top: 100px;
+    margin-bottom: 107px;
+}
+.campo-tema{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px
+}
+.campo-tema p{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 7px
+}
+.campo-tema input{
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-bottom: solid 1px #03588C;
+}
+.campo-descricao p{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 7px
+}
+.campo-descricao input{
+    width: 100%;
+    height: 202px;
+    border: solid 1px #03588C;
+}
+
+
+
+
+.equipes{
+    width: 290px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #048ABF;
+    border-radius: 5px;
+    margin-bottom: 33px;
+}
+.alinhar-equipes{
+    font-size: 18px;
+    color: white;
+    font-family: 'Baloo Tammudu 2', cursive;
+    width: 257px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.tituloEquipe{
+    padding-top: 15px;
+}
+.botaoEquipe{
+    padding-top: 6px;
+}
+.botaoEquipe button{
+    padding-top: 7px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: white;
+    background-color: #049DBF;
+    width: 79px;
+    height: 38px;
+    border: none;
+}
