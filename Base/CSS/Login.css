@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parteSuperior{
+    width: 25.875em;
+    height: 10em;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoTitulo{
+    text-decoration: none;
+    color: #1BE0B6;
+    font-size: 2.25em;
+    font-family: ;
+}
+
+.fundo{
+    width: 25.875em;
+    height: 46em;
+    display: flex;
+    justify-content: center;
+}
+
+.blocoLogin{
+    width: 20.12em;
+    height: 22.630625em;
+}
+
+.form{
+    background-color: rgb(30, 0, 255);
+    padding: 2.8em;
+}
+
+.textoDoLogin{
+    font-size: 1.125em;
+    color: white;
+}
+
+.input{
+    width: 17.125em;
+    height: 2.8125em;
+}
+
+.posicaoLogin{
+    display: flex;
+    justify-content: center;
+}
+
+.textoLogin{
+    font-size: 2.25em;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
+
+.posicaoSenha{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao{
+    width: 17.125em;
+    height: 2.8125em;
+    background-color: #3582FF;
+    color: white;
+}
+
+.cadastrarArea{
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro{
+    text-decoration: none;
+    color: #3582FF;
+}
